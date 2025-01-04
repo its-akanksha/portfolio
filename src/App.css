@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.App{
+  margin: 2px;
+  background-color: rgb(254, 244, 232);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  font-family: Roboto, sans-serif;
+  padding: 5px;
+  color: rgb(75, 71, 71);
+}
+
+.main-content{
+  margin:1px;
+  padding: 3px;
+  width: 87%;
+  height: 100%;
+  color: rgb(75, 71, 71);
+  /* border: 2px solid black; */
+  /* display: flex;
+  justify-content: center; */
+}
+
+.header{
+  width:99.5%;
+  /* border: 2px solid black; */
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  top: 10px;
+}
+
+.portfolio{
+  color: #727171;
+}
+.o-port{
+  display: inline;
+  color:rgb(125, 68, 34) ;
+}
+.download{
+  font-size: 13px;
+  display: inline-block;
+  height: 30px;
+  width: 120px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none; /* Remove underline from the link */
+  color: rgb(125, 68, 34); /* Match the color */
+}
+
+.download:hover{
+  background-color: rgb(224, 203, 178);
+}
+
+.main-about-technical{
+  width: 99.5%;
+  height: fit-content;
+  /* background-color: aqua; */
+  /* border: 1px solid black; */
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2px;
+}
+
+.left{
+  flex: 2;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+
+.right{
+  flex: 1;
+  text-align: left;
+  /* border: 1px solid black; */
+
+}
+
+.about-me{
+  font-size: 35px;
+  font-weight: bolder;
+  color: #727171;
+}
+
+.about-me-content{
+  font: 20px;
+  font-weight: 250;
+  color: rgb(77, 77, 77);
+  width: 70%;
+}
+
+.about-me-paragraph{
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(122, 120, 115);
+}
+.experience-achievement{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.left-left{
+  flex: 1;
+  /* border: 1px solid black; */
+}
+
+.left-right{
+  flex: 1;
+  /* border: 1px solid black; */
+}
+
+.achievement{
+  font-size: 20px;
+  font-weight: 550;
+  color: rgb(125, 68, 34);
+}
+
+.achievement-paragraph{
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(122, 120, 115);
+}
+
+.achievement-wrap{
+  padding: 10px;
+  margin: 10px;
+}
+
+.achievement-title{
+  font-size: 15px;
+  font-weight: 450;
+  color: rgb(107, 103, 103);
+}
+
+.achievement-description{
+  font-size: 13px;
+  color: rgb(98, 94, 94);
+}
+
+.achievement-date{
+  font-size: 13px;
+  color: rgb(110, 105, 105);
+}
+
+.skills-wrap{
+  margin-top: 15px;
+}
+
+.skills-title{
+  font-size: 18px;
+  font-weight: 450;
+  color: rgb(95, 93, 93);
+}
+
+.skills-block{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  margin-top: 20px;
+}
+
+.skills-tile{
+  background-color: #e5e5e5; 
+  color: #4a4a4a; 
+  padding: 8px 16px; 
+  border-radius: 20px;
+  font-size: 14px; 
+  font-weight: 500; 
+  white-space: nowrap; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s ease-in-out; 
+}
+
+.skills-tile:hover{
+  transform: scale(1.05);
+}
+
+.footer{
+  border-top: 1px solid black;
+  bottom: 0;
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.icon-tile{
+  margin: 10px;
+}

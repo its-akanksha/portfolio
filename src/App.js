@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import girlImage from './girl.png';
 import linkedin from './icons8-linkedin.svg';
